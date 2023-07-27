@@ -3,9 +3,7 @@
 </h1>
 
 <p>
-  <img src="https://img.shields.io/badge/made%20by-RAFAEL%20MARTINS-04cc5e?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/launchstore?color=04cc5e&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/launchstore?color=04cc5e&style=flat-square">
+ 
   <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-04cc5e?style=flat-square">
   </a>
@@ -112,6 +110,9 @@ $ cd launchstore
 $ npm install
 
 # Crie o banco de dados e as tabelas utilizando os comandos
+$ docker run --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
+
+# Crie o banco de dados e as tabelas utilizando os comandos
 # inclusos no arquivo "database.sql".
     
 # Conexão com o banco de dados:
@@ -140,7 +141,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 ---
 
-Feito com :purple_heart: by [Rafael Martins](https://github.com/martins-rafael)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaeldcmartins/)](https://www.linkedin.com/in/rafaeldcmartins/) 
-[![Gmail Badge](https://img.shields.io/badge/-rafaeldcmartins@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:rafaeldcmartins@gmail.com)
